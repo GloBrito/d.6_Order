@@ -10,23 +10,36 @@ background-color: #e0e8ff;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5%;
+ }
+
+ img{
+     border-radius: 5%;
+     width: 100%;
  }
  
  .music{
      display: block;
      background-color: #fff;
      width: 17%;
-     height: 50%;
+     height: 70%;
      border-radius: 5%;
  }
  
- .alinhamento{
-     padding: 10px;
- 
- }
 
  .code{
     width: 100%;
     border-radius: 5%;
 }
 
+h1{
+    text-align: center;
+    font-family:'Outfit', sans-serif;
+    color: #1a2b47;
+    padding: 5%;
+}
+
+p{
+    color: #9f9eae;
+    text-align: center;
+}
