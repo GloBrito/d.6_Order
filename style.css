@@ -10,19 +10,19 @@ background-color: #e0e8ff;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5%;
  }
 
  img{
-     border-radius: 5%;
-     width: 100%;
+     /* border-radius:0 5% 0 0; */
+     
+     
  }
  
  .music{
      display: block;
      background-color: #fff;
-     width: 17%;
-     height: 70%;
+     width: 22%;
+     height: 60%;
      border-radius: 5%;
  }
  
@@ -37,9 +37,33 @@ h1{
     font-family:'Outfit', sans-serif;
     color: #1a2b47;
     padding: 5%;
+    
 }
 
 p{
     color: #9f9eae;
+    text-align: center;
+    font-size: 21px;
+    margin: 5%;
+}
+
+.box{
+    background-color: #f8f9fe;
+
+}
+
+
+.botao{
+    background-color: #382ae1;
+    margin: 10%;
+    text-align: center;
+    padding: 5%;
+    color: #fff;
+    border-radius: 4%;
+    
+}
+
+.cancel{
+    color: #87889a;
     text-align: center;
 }
