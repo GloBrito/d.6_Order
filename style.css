@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 body{
     background: top / contain no-repeat url(img/pattern-background-desktop.svg);
-background-color: #e0e8ff;
+    background-color: #e0e8ff;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 .container{
@@ -12,44 +13,49 @@ background-color: #e0e8ff;
     align-items: center;
  }
 
- img{
-     /* border-radius:0 5% 0 0; */
-     
+ .hero{
+    width: 380px;
+    border-radius: 20px 20px 0 0;
      
  }
  
  .music{
      display: block;
      background-color: #fff;
-     width: 22%;
-     height: 60%;
-     border-radius: 5%;
+     width: 380px;
+     height: 620px;
+     border-radius: 20px;
  }
  
 
  .code{
     width: 100%;
-    border-radius: 5%;
+    border-radius: 8%;
 }
 
 h1{
     text-align: center;
-    font-family:'Outfit', sans-serif;
     color: #1a2b47;
-    padding: 5%;
+    padding: 10px;
+    font-weight: 900;
     
 }
 
 p{
-    color: #9f9eae;
+    color: #797e91;
     text-align: center;
-    font-size: 21px;
-    margin: 5%;
+    font-size: 14px;
+    padding: 10px 70px 20px 70px;
 }
 
 .box{
-    background-color: #f8f9fe;
-
+    /* background-color: #f8f9fe; */
+    background-color: aquamarine;
+    margin: auto;
+    width: 305px;
+    height: 80px;
+    border-radius: 2%;
+    padding: 3%;
 }
 
 
@@ -57,13 +63,36 @@ p{
     background-color: #382ae1;
     margin: 10%;
     text-align: center;
-    padding: 5%;
+    padding: 3%;
     color: #fff;
-    border-radius: 4%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px #e0dcf7;
     
 }
 
 .cancel{
-    color: #87889a;
+    color: #7e7e8a;
     text-align: center;
+    font-weight: bold;
+}
+
+img{
+    margin: 10px;
+    float: left;
+}
+
+.plano-anual{
+    float: left;
+    margin: 5px 100px 0 0;
+    color: #1f3251;
+    font-weight:bolder;
+    }
+
+.valor{
+    margin: 5px 10px 0 0;
+    color: #797e91;
+
+}
+.mudanca{
+margin: 20px 10px 0 ;
 }
