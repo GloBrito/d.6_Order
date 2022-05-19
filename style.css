@@ -49,13 +49,13 @@ p{
 }
 
 .box{
-    /* background-color: #f8f9fe; */
-    background-color: aquamarine;
+    background-color: #eceef8;
     margin: auto;
     width: 305px;
-    height: 80px;
-    border-radius: 2%;
-    padding: 3%;
+    height: 67px;
+    border-radius: 8px;
+
+    
 }
 
 
@@ -76,23 +76,24 @@ p{
     font-weight: bold;
 }
 
-img{
-    margin: 10px;
-    float: left;
+.music-icone{
+   margin: 10px;
+   float: left;
 }
 
 .plano-anual{
     float: left;
-    margin: 5px 100px 0 0;
+    margin: 12px 100px 0 0;
     color: #1f3251;
     font-weight:bolder;
     }
 
 .valor{
-    margin: 5px 10px 0 0;
+    margin: 15px 10px 0 0;
     color: #797e91;
 
 }
-.mudanca{
-margin: 20px 10px 0 ;
+.change{
+    margin: -30px 20px 0 20px;
+    float: right;
 }
